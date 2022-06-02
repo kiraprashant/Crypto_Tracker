@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Tiro Tamil', serif;
+}
+img{
+  width: 18px;
+  height:18px
+}
+.Toggle{
+  outline: none;
+  border: none;
+  padding: 10px;
+}
+.Loading{
+
+  text-align:center;
+  line-height: 100%;
+  padding: 20px;
+  font-size: 28px;
+}
+
+th{
+  text-transform: uppercase;
+}
+
+.Loading p{
+  
+  letter-spacing: 5px;
+
+}
