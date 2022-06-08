@@ -8,7 +8,7 @@ const Cryptoalldata = (props) => {
         <td className='px-5'>{CryptoData[id].market_cap_rank}</td>
         <td className='px-2'><img src = {CryptoData[id].image}/>&nbsp;&nbsp; {CryptoData[id].symbol}</td>
         <td className='px-5'>{CryptoData[id].name}</td>
-        <td className='px-5'>{CryptoData[id].current_price * 75}</td>
+        <td className='px-5'>{CryptoData[id].market_cap}</td>
         <td className='px-5'>{CryptoData[id].current_price * 75}</td>
        
       
